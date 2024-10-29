@@ -2,8 +2,10 @@
 
 <!-- TOC depthFrom:2 -->
 
+- [Aiven MySQL/PostgreSQL/Redis](#aiven)
 - [AWS DynamoDB](#aws-dynamodb)
 - [Cloudant CouchDB](#cloudant-couchdb)
+- [CockroachDB](#cockroachdb)
 - [DataStax Astra Cassandra](#datastax-astra-cassandra)
 - [Dydra](#dydra)
 - [ElephantSQL](#elephantsql)
@@ -12,6 +14,7 @@
 - [Google Cloud Datastore](#google-cloud-datastore)
 - [InfluxDB Cloud](#influxdb-cloud)
 - [MongoDB Atlas](#mongodb-atlas)
+- [Neon](#neon)
 - [OpenShift MongoDB](#openshift-mongodb)
 - [Oracle Cloud Free Tier](#oracle-cloud-free-tier)
 - [Railway](#railway)
@@ -19,6 +22,12 @@
 - [Supabase Postgres](#supabase-postgres)
 
 <!-- /TOC -->
+
+## aiven
+[Product page](https://aiven.io/free-mysql-database)
+* *Free tier*: 1 VM, 1 CPU, 1 GB RAm, 5 GB storage for PostgreSQL and MySQL, one free PostgreSQL, one free MySQL, and one free Redis
+* *Pros:* Dedicated VM, no credit card required, Performance graphs, Data encrypted on disk and network, Backups for disaster recovery, One-click version upgrade, certifications like SOC2, ISO27001, PCI-DSS and GDPR
+* *Limitations*: For PostgreSQL: no connection pooling, Support only through the Aiven Community Forum, Only a limited number of DigitalOcean regions, Not covered under Aiven's 99.99% SLA
 
 ## AWS DynamoDB
 
@@ -37,6 +46,14 @@
 * *Limitations*: Account on shared multitenant instance
 * *Exceeding the free tier*: Credit card needed after first 30 days to charge exceeding usage
 
+## CockroachDB
+
+[Pricing page](https://www.cockroachlabs.com/pricing/)
+
+* *Free tier*: 10GB storage with 50M Request Units per month.
+* *Pros*: PostgreSQL compatible. Multiple cloud hosts and regions to choose from. Distributed, resilient database hosting. Free hourly backups. Open-source and self hostable. No credit card required to get started.
+* *Limitations*: Credit card required to set up multiple clusters.
+* *Exceeding the free tier*: $0.50/GB over 10GB limit, $0.20 per additional 1M Request Units.
 
 ## DataStax Astra Cassandra
 [Product page](https://www.datastax.com/products/datastax-astra)
@@ -99,6 +116,15 @@
 
 * *Free tier*: Start with a free 3-node replica set and 512 MB of storage / Shared RAM.
 * *Pros*: Fast, secure, and highly available MongoDB service for any scale.
+
+## Neon
+
+[Pricing page](https://neon.tech/pricing)
+
+* *Free tier*: 1 project, 10 branches, 3 GiB storage, unlimited databases.
+* *Pros*: Serverless Postgres with branching.
+* *Limitations*: Shared compute with 1 GiB RAM per branch, idles after 5 minutes, max of 100 active hours for non-primary branches.
+* *Exceeding the free tier*: Non-primary branches over the hour limit will be suspended.
 
 ## OpenShift MongoDB
 

@@ -5,10 +5,12 @@
 - [Argonaut](#argonaut)
 - [ExchangeRate-API](#exchangerate-api)
 - [FingerprintJS Pro](#fingerprintjs-pro)
-- [Geocodio](#Geocodio)
-- [Let's encrypt](#lets-encrypt)
+- [Geocodio](#geocodio)
+- [ipapi.is](#ipapiis)
+- [Let's Encrypt](#lets-encrypt)
 - [Mailtrap](#mailtrap)
 - [ostr.io](#ostrio)
+- [Svix](#svix)
 - [Taskade](#taskade)
 - [Warrant](#warrant)
 
@@ -48,6 +50,15 @@
 * *Pros*: Forward and reverse geocoding, supports data appends such as Census data, congressional districts and timezones
 * *Limitations*: Only covers US and Canada
 
+## ipapi.is
+
+[Home page](https://ipapi.is/)
+
+* *Free tier*: 1,000 API lookups per day
+* *Pros*: The free tier includes full API output with all data types. The API is replicated on mutiple servers worldwide which results in a fast performance.
+* *Limitations*: No limits
+* *Exceeding the free tier*: need to pay if 1,000 free daily API lookups are exceeded
+
 ## Let's Encrypt
 
 [Home page](https://letsencrypt.org/)
@@ -72,6 +83,15 @@
 * *Pros*: simple and easy to use, "one click" setup for Monitoring and Domains Protection, Prerendering supports ES6 (ECMAScript 2015)
 * *Limitations*: No limits
 * *Exceeding the free tier*: need to pay, Domain Names Protections continues to work as it's free for all accounts on all plans
+
+## Svix
+
+[Pricing page](https://www.svix.com/pricing/)
+
+* *Free tier*: 50,000 webhook messages/month, 7 day data retention, unlimited environments
+* *Pros*: super easy to ship a reliable, scalable webhook service with automatic retries, HMAC signatures, etc.
+* *Limitations*: rate limited to 10 messages/second
+* *Exceeding the free tier*: need to pay but service will continue working and a sales rep will reach out
 
 ## Taskade
 

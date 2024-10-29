@@ -2,7 +2,7 @@
 
 <!-- TOC depthFrom:2 -->
 
-- [AppHarbor](#appharbor)
+- [Alwaysdata](#alwaysdata)
 - [AWS EC2](#aws-ec2)
 - [Azure App Service](#azure-app-service)
 - [Fly](#fly)
@@ -16,18 +16,17 @@
 - [OpenShift](#openshift)
 - [Oracle](#oracle)
 - [Qoddi](#qoddi)
-- [Railway](#railway)
+- [Render](#render)
 - [Vercel](#vercel)
 
 <!-- /TOC -->
 
-## AppHarbor
+## Alwaysdata
 
-[Pricing page](https://appharbor.com/pricing)
+[Pricing page](https://alwaysdata.com/)
 
-* *Free tier*: 1 worker unit, apphb.com hostname
-* *Pros*: Auto scaling, Deploy with git, One of few PaaS for .NET apps
-* *Limitations*: No custom domain on free tier
+* *Free tier*: up to 100MB overall
+* *Pros*: Unlimited sites and applications (are supported Node.js, Python, PHP, Ruby, Elixir, Java, Deno and .NET), full SSL support, create schedules tasks, automatic backups each day with a retention of 30 days, domain administration with unlimited domains and emails
 
 ## AWS EC2
 
@@ -35,6 +34,7 @@
 
 * *Free tier*: 750 hours/month of t2.micro instances
 * *Limitations*: Expires 12 months after sign-up
+* *Credit card required*: Yes, [you must add a valid [credit card, debit card, or another payment method](https://repost.aws/knowledge-center/free-tier-payment-method))
 
 ## Azure App Service
 
@@ -43,6 +43,7 @@
 * *Free tier*: 10 applications, 1 shared core, 1GB RAM and 1GB storage per application
 * *Pros*: Supports .NET, easy publishing directly from Git/GitHub/Bitbucket
 * *Limitations*: Cumulative limit for CPU (60 minutes allowed every 24 hours), No uptime SLA, No custom domain, No SSL
+* *Credit card required*: Yes, you must add a [credit or debit card](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/change-credit-card)
 
 ## Fly
 
@@ -50,6 +51,7 @@
 
 * *Free tier*: 2340 shared CPU hours per month, 160GB outbound bandwidth per month (unlimited inbound), Unlimited IPv6 and 1 IPv4 Anycast IPs per active app, 10 active certificates per app
 * *Limitations*: No uptime SLA, No web app (access through CLI only)
+* *Credit card required*: [Yes](https://fly.io/docs/about/credit-cards/)
 
 ## GearHost
 
@@ -75,6 +77,7 @@
 * *Free tier*: 28 instance hours/day, 1GB outbound bandwidth/day, 1GB inbound bandwidth/day, 5GB Cloud storage, Shared memcache, 1000 search operations per day, 10MB search indexing, 100 emails per day
 * *Pros*: Managed, Autoscaling, Works well with other Google Cloud features (load balancing, datastores, etc.), Multiple languages supported
 * *Limitations*: Free tier only applies to a standard environment which supports Python, Java, PHP and Go
+* *Credit card required*: Yes, you must have a [valid payment method](https://cloud.google.com/appengine/docs/standard/payment-instrument), even for the free tier
 
 ## Google Compute Engine
 
@@ -83,6 +86,7 @@
 * *Free tier*: 1 f1-micro instance per month (US regions only), 30GB-months HDD, 5GB-months snapshot, 1GB network egress from North America to all region destinations per month (excluding China and Australia)
 * *Pros*: Works well with other Google Cloud features (load balancing, datastores, etc.)
 * *Limitations*: Limited to US region only for now
+* *Credit card required*: Yes, you must provide a [credit card or other payment method](https://cloud.google.com/free/docs/free-cloud-features), even for a free trial
 
 ## IBM Cloud
 
@@ -106,6 +110,7 @@
 * *Free tier*: 100GB bandwidth per month, 1 concurrent build, 300 build minutes/month, 125000 serverless function invocations per month, 100 form submissions per month, 1000 active Identity users per month, 2500 large media transformations per month
 * *Pros*: Deploy with Git, Edge CDN
 * *Limitations*: No site analytics on free tier
+* *Credit card required*: No
 
 ## OpenShift
 
@@ -131,13 +136,14 @@
 * *Pros*: Always online, Unlimited build minutes
 * *Limitations*: No uptime SLA on free tier
 
-## Railway
+## Render
 
-[Pricing page](https://railway.app/pricing)
+[Pricing page](https://render.com/pricing)
 
-* *Free tier*: 1GB memory per container, Shared CPU, 1GB disk usage (10GB hard limit), 100GB outbound bandwidth (unlimited inbound). [Read more](https://railway.app/legal/fair-use)
-* *Pros*: You can have your app and database on the same platform and run both of them for free, [see](database-hosting.md#railway) for database hosting
-* *Limitations*: Only 99% uptime SLA, 3 projects, 2 plugins per project, 2 environments per project, 3 live deploys per environment
+* *Free tier*: 100GB outbound bandwidth per month (unlimited inbound)
+* *Pros*: Includes CDN, Deploy with git, Custom domains, Automatic HTTPS
+* *Limitations*: Free tier does not allow tracking deployments from Github. You can use [this tool](https://github.com/marketplace/actions/render-github-action) instead if you prefer
+* *Credit card required*: No
 
 ## Vercel
 
@@ -146,3 +152,4 @@
 * *Free tier*: 100GB bandwidth per month, 100GB-Hours serverless function execution, 1000 image optimizations, Unlimited serverless function invocations, 100000 edge function invocations, 6000 build minutes/month, 1 concurrent build, 50 domains per project, 3 projects per git repository, 100 deployments per day, 12 serverless functions written in Node.js, Go, Python and Ruby
 * *Pros*:  Deploy with git, Edge CDN, Preview deployments, Next.js API endpoints are converted to serverless functions automatically. [Also see](static-app-hosting.md#vercel) for static hosting
 * *Limitations*: No uptime SLA on free tier, Free tier does not allow commercial usage, observability is limited, Free tier has limited analytics
+* *Credit card required*: No

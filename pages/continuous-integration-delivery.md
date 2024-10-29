@@ -3,6 +3,7 @@
 <!-- TOC depthFrom:2 -->
 
 - [AppVeyor](#appveyor)
+- [Bitbucket Pipelines](#bitbucket-pipelines)
 - [Bitrise](#bitrise)
 - [CircleCI](#circleci)
 - [Codefresh](#codefresh)
@@ -24,6 +25,13 @@
 
 * *Free tier*: Unlimited projects for open source, 1 concurrent build
 * *Pros*: Build support for .NET, Xamarin, Node.js and Ruby, Integrates with 10 different Git hosting providers including GitHub, GitLab and Bitbucket, Deploys to Azure, Amazon and other hosting providers
+
+## Bitbucket Pipelines
+[Product Page](https://bitbucket.org/product/features/pipelines)
+
+* *Free tier*: 50 min / month included
+* *Pros*: You can have your runner self-hosted, full integration with Bitbucket
+* *Cons*: Only with Bitbucket
 
 ## Bitrise
 
@@ -80,9 +88,9 @@
 
 ## GitLab CI
 
-[Product page](https://about.gitlab.com/gitlab-ci/) / [Shared runners details](https://about.gitlab.com/gitlab-com/settings/#shared-runners)
+[Product page](https://about.gitlab.com/pricing/)
 
-* *Free tier*: Shared runners (DigitalOcean 4GB instances with CoreOS and Docker) for public/private projects, tests can be run in parallel
+* *Free tier*: Shared runners (DigitalOcean 4GB instances with CoreOS and Docker) for public/private projects, tests can be run in parallel, 400 compute minutes per month
 * *Pros*: Runners can also be installed on premise, fully integrated with GitLab
 * *Limitations*: Shared runners builds can be delayed some time
 

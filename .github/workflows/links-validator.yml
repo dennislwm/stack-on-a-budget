@@ -10,10 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: '3.0'
     - name: Check links
       run: |
         gem install awesome_bot
-        awesome_bot pages/*.md --allow-timeout --allow-redirect --allow-ssl --white-list https://www.algolia.com/pricing,https://www.oracle.com/cloud/free/#always-free 
+        awesome_bot pages/*.md --allow 202 --allow-timeout --allow-redirect --allow-ssl --white-list https://www.algolia.com/pricing,https://www.oracle.com/cloud/free/#always-free 
